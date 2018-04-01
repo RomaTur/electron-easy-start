@@ -1,8 +1,16 @@
 # electron-easy-start
 
-Simple starter-kit for development on React + Electron with hot reloading. The web version compiles and projecting into the Electron application. After assamblying web version, build going into Eletron wrapper and script creating desktop version. You can use a couple of commands for easy development.
+Simple starter-kit for development on **React** + **Electron** with hot reloading. The web version compiles and projecting into the Electron application. After assamblying web version, build going into Eletron wrapper and script creating desktop version. You can use a couple of commands for easy development.
 
-<!-- ![w10 sample](https://user-images.githubusercontent.com/11739632/37350993-59ad48d4-26da-11e8-9ac5-d3539cf1e2f9.PNG) -->
+![electron-easy-start](https://lh6.googleusercontent.com/wctYq28b3wSGDJPXVS9oH9rHK3VrtXRFOruVCFvrtIWY9s9ww0uGFIppLNDvqe1j8t1HugC6_zPP5LoQLbHS=w1440-h804-rw)
+
+- [electron-easy-start](#electron-easy-start)
+    - [Install](#install)
+    - [Develop](#develop)
+    - [Build](#build)
+        - [Important](#important)
+    - [What's included](#whats-included)
+    - [Folder structure](#folder-structure)
 
 ## Install
 
@@ -47,7 +55,7 @@ $ npm run build-desktop
 
 ### Important
 
-You need to see [config](https://www.electron.build/configuration/configuration) for **"build"** property.
+You need to see [config](https://www.electron.build/configuration/configuration) for **"build"** property in package.json.
 
 ## What's included
 

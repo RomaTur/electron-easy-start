@@ -19,10 +19,10 @@ class App extends React.Component {
           <span className='App__images-plus'>+</span>
           <img src={fireImage} alt='fire' className='App__images-img'/>
         </div>
-        <h1>Hello, username!</h1>
-        <p className='paragraph'>
+        <h1 className='App__hello'>Hello, username!</h1>
+        <p className='App__paragraph'>
           If you are trying to build Electron apps using React, or you just want to play around with them, 
-          feel free to use this seed as a starting point
+          feel free to use this seed as a starting point.
         </p>
       </div>
     );

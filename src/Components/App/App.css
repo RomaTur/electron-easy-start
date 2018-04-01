@@ -11,5 +11,21 @@
     .App__images-plus {
       font-size: 30px; }
     .App__images-img {
-      width: 75px;
+      width: 100px;
       margin: 0 10px; }
+      @media (max-width: 480px) {
+        .App__images-img {
+          width: 75px; } }
+  .App__hello {
+    color: #B8D;
+    font-family: monospace;
+    font-size: 35px; }
+    @media (max-width: 767px) {
+      .App__hello {
+        font-size: 30px; } }
+  .App__paragraph {
+    max-width: 530px;
+    margin: 10px 20px;
+    font-size: 18px;
+    font-family: monospace;
+    color: #712d9f; }

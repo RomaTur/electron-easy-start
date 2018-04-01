@@ -1,3 +1,4 @@
+$color-theme: #B8D
 .App
   display: flex
   justify-content: center
@@ -11,5 +12,19 @@
     &-plus
       font-size: 30px
     &-img
-      width: 75px
+      width: 100px
       margin: 0 10px
+      @media (max-width: 480px)
+        width: 75px
+  &__hello
+    color: $color-theme
+    font-family: monospace
+    font-size: 35px
+    @media (max-width: 767px)
+        font-size: 30px
+  &__paragraph
+    max-width: 530px
+    margin: 10px 20px
+    font-size: 18px
+    font-family: monospace
+    color: darken($color-theme, 30%)
