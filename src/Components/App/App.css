@@ -1,10 +1,15 @@
-@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
 .App {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   width: 100vw;
-  height: 100vh;
-  background: url("./background.jpg");
-  background-size: cover;
-  font-family: 'Press Start 2P', cursive; }
+  height: 100vh; }
+  .App__images {
+    display: flex;
+    align-items: center; }
+    .App__images-plus {
+      font-size: 30px; }
+    .App__images-img {
+      width: 75px;
+      margin: 0 10px; }

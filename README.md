@@ -2,7 +2,7 @@
 
 Simple starter-kit for development on React + Electron with hot reloading. The web version compiles and projecting into the Electron application. After assamblying web version, build going into Eletron wrapper and script creating desktop version. You can use a couple of commands for easy development.
 
-![w10 sample](https://user-images.githubusercontent.com/11739632/37350993-59ad48d4-26da-11e8-9ac5-d3539cf1e2f9.PNG)
+<!-- ![w10 sample](https://user-images.githubusercontent.com/11739632/37350993-59ad48d4-26da-11e8-9ac5-d3539cf1e2f9.PNG) -->
 
 ## Install
 
@@ -56,7 +56,7 @@ You need to see [config](https://www.electron.build/configuration/configuration)
 - JS, CSS and assets automatic bundling.
 - Hot reloading via react-scripts and electron-reload
 
-> To use JSX, use react-scripts instead react-script-ts
+> To use JSX, use react-scripts instead react-scripts-ts
 
 ## Folder structure
 
@@ -80,7 +80,7 @@ You need to see [config](https://www.electron.build/configuration/configuration)
         ├── index.css               # Global style
         ├── index.tsx               # Main script that renders your app
     ├── electron_process.js         # Electron main process
-    ├── gulpfile.js                 # Task copy electron_process.js and
+    ├── gulpfile.js                 # Task copies electron_process.js and
                                     # package.json in build folder(web)
                                     # This made for script
                                     # that builds desktop version

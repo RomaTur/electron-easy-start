@@ -1,11 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
-
 .App
   display: flex
   justify-content: center
   align-items: center
+  flex-direction: column
   width: 100vw
   height: 100vh
-  background: url('./background.jpg')
-  background-size: cover
-  font-family: 'Press Start 2P', cursive
+  &__images
+    display: flex
+    align-items: center
+    &-plus
+      font-size: 30px
+    &-img
+      width: 75px
+      margin: 0 10px
