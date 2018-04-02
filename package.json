@@ -43,18 +43,19 @@
     "@types/react-dom": "^16.0.4",
     "electron": "^1.8.2",
     "electron-builder": "^20.8.1",
+    "electron-reload": "^1.2.2",
     "gulp": "^3.9.1",
+    "gulp-cli": "^2.0.1",
     "node-sass-chokidar": "^1.2.2",
     "npm-run-all": "^4.1.2",
     "react-scripts-ts": "2.14.0",
-    "typescript": "^2.7.2",
-    "electron-reload": "^1.2.2",
-    "gulp-cli": "^2.0.1"
+    "typescript": "^2.7.2"
   },
   "dependencies": {
     "javascript-blowfish": "^1.0.4",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-particles-js": "^2.1.2",
     "sha256": "^0.2.0"
   }
 }

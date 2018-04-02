@@ -3,9 +3,26 @@ $color-theme: #B8D
   display: flex
   justify-content: center
   align-items: center
-  flex-direction: column
   width: 100vw
   height: 100vh
+  background-color: #232741
+  &__bg
+    position: absolute
+    width: 100%
+    height: 100%
+  &__content
+    z-index: 1
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+    background: #EEE
+    margin: 0 10px
+    border-radius: 10px
+    padding: 40px 20px
+    box-shadow: 0 0 25px black
+    @media (max-width: 480px)
+        padding: 40px 0
   &__images
     display: flex
     align-items: center
@@ -15,16 +32,19 @@ $color-theme: #B8D
       width: 100px
       margin: 0 10px
       @media (max-width: 480px)
-        width: 75px
+        width: 65px
   &__hello
     color: $color-theme
     font-family: monospace
     font-size: 35px
     @media (max-width: 767px)
-        font-size: 30px
+        font-size: 26px
   &__paragraph
     max-width: 530px
     margin: 10px 20px
     font-size: 18px
     font-family: monospace
-    color: darken($color-theme, 30%)
+    color: darken($color-theme, 10%)
+    @media (max-width: 480px)
+        font-size: 14px
+        margin: 10px 10px2

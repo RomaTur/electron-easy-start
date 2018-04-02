@@ -30,7 +30,7 @@ $ npm install
 Just run this commands to start developing with hot reloading.
 
 ``` bash
-# Start developing for broweser
+# Start developing for browser
 
 $ npm start
 

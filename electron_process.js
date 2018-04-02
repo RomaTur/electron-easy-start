@@ -2,14 +2,14 @@
 const electron = require('electron')
 const {app, BrowserWindow} = electron
 
-// Let electron reloads by itself when webpack watches changes in ./src/
+// Let electron reloads by itself when react-scripts watch changes in ./src/
 if(process.env.ELECTRON_START_URL){
 require('electron-reload')(__dirname)
 }
 
 const path = require('path');
 const url = require('url');
-// To avoid being garbage collected
+
 let mainWindow
 
 app.on('ready', () => {
