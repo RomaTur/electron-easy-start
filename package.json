@@ -8,7 +8,7 @@
     "start": "npm-run-all -p watch-css start-js",
     "electron-dev": "ELECTRON_START_URL=http://localhost:3000 electron .",
     "build-web": "npm-run-all build-css build-js",
-    "build-linux": "npm-run-all build-web gulp dist",
+    "build-desktop": "npm-run-all build-web gulp dist",
     "build-css": "node-sass-chokidar src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
     "start-js": "react-scripts-ts start",
@@ -19,8 +19,7 @@
     "start-electron": "npm-run-all -p start electron-dev"
   },
   "build": {
-    "appId": "yourappid",
-    "asar": "false",
+    "appId": "electroneasystart",
     "files": [
       {
         "from": "./build/",
