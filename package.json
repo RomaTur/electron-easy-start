@@ -7,6 +7,7 @@
   "scripts": {
     "start": "npm-run-all -p watch-css start-js",
     "electron-dev": "ELECTRON_START_URL=http://localhost:3000 electron .",
+    "test": "react-scripts-ts test --env=jsdom",
     "build-web": "npm-run-all build-css build-js",
     "build-desktop": "npm-run-all build-web gulp dist",
     "build-css": "node-sass-chokidar src/ -o src/",
@@ -44,6 +45,8 @@
     "electron": "^1.8.2",
     "electron-builder": "^20.8.1",
     "electron-reload": "^1.2.2",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
     "gulp": "^3.9.1",
     "gulp-cli": "^2.0.1",
     "node-sass-chokidar": "^1.2.2",
