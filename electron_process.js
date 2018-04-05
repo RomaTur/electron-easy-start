@@ -23,3 +23,7 @@ app.on('ready', () => {
     mainWindow.loadURL(startUrl);
 
 })
+
+app.on('window-all-closed', () => {
+    app.quit()
+})
